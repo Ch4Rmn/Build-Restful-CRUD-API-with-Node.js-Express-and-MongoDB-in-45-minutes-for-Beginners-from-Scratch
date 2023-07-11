@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
-const port = 3000;
+const port = 4002;
 const mongoose = require("mongoose");
-const multer = require("multer");
+// const multer = require("multer");
 var bcrypt = require("bcryptjs");
 
 const Product = require("./model/productModel.js");
